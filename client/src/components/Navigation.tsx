@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Link } from 'wouter';
+import logoImg from "@/img/logoDamosalud.jpeg";
 
 /**
  * Navigation Component - Damos Salud Brand Design
@@ -28,8 +29,8 @@ export default function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
             <img
-              src="src/img/logoDamosalud.jpeg"
-              alt="DAMOSALUD Logo"
+              src={logoImg}
+              alt="Logo"
               className="h-12 w-auto group-hover:opacity-80 transition-opacity duration-300"
             />
             <div className="hidden sm:block">

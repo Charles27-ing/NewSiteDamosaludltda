@@ -2,6 +2,10 @@ import { Users, Beaker, Smile, Pill, Activity, Heart, ArrowRight } from 'lucide-
 import { Link } from 'wouter';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import heroImage from '@/img/servicios.jpg';
+import teamImage from '@/img/about.jpg';
+
+
 
 /**
  * Home Page - Medical Minimalist Design
@@ -63,7 +67,7 @@ export default function Home() {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663126905658/aEEywgfyW5tZZK7ehytBC7/hero-medical-3G5uK7KKLQwZpPrVSjH37j.webp"
+            src={heroImage}
             alt="Professional healthcare"
             className="w-full h-full object-cover"
           />
@@ -143,7 +147,7 @@ export default function Home() {
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg">
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663126905658/aEEywgfyW5tZZK7ehytBC7/team-doctors-Cv2GuSCHF5bAGu3Uqh7zKM.webp"
+                src={teamImage}
                 alt="Medical team"
                 className="w-full h-full object-cover"
               />

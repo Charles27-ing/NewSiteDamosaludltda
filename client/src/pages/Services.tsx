@@ -3,7 +3,7 @@ import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import CategorizedImageGallery from '@/components/CategorizedImageGallery';
 import BentoServiceGrid from '@/components/BentoServiceGrid';
-
+import PypImg from '@/img/img-2.jpg';
 interface BentoCard {
   id: number;
   title: string;
@@ -91,7 +91,7 @@ export default function Services() {
       id: 5,
       title: 'Promocion y Mantenimiento de la Salud',
       description: 'Servicio de emergencias disponible 24/7 con equipo médico especializado',
-      image: 'https://public.boxcloud.com/api/2.0/internal_files/2193045505647/versions/2425092546447/representations/jpg_paged_2048x2048/content/1.jpg?access_token=1!9M7LY2tcHTbPJHOdcDSQwDvg2X4DsoSxJXO9GICzSkPOz2kUqxFcb-k68_j_ckOkbiIkS5kaA6cwQw7a9xNZlIVY8cCbc0NGqnXerZK48wAOWS-gNaiG2Yq28OhuL7RrtMoR8lcHohJ40jm_mHfimoePu7FY5fHFZRd_mzk1KedLAzTMcIqZS2DXPHhBUJmejf6mS97E9RaAxENpwvHCQGa1pZc7xzy44VEgYYgHztEXzWAV_T8ob1iMKrNKufnS6sRPQgDjGbDofkqjQ6AX8DlQEMaPNtjJo-B0U8TsMXljICdHulXJASAqNcoxtvEwOkp0bxbeWMBbLql_uZJGbeiN5vLCyqiQKw1orkBUt1twhE5iMMJz6dg6T1fFhQ0mriFjVHgmBvGbIz54KCEsT_yB8CyZQOhhB-TSqPDd8anExiCCgvXReMhGOLfXit1PGkudumPLnjP5K2Pr3O7jdNJb4SJsdddsGPew40g0SHUE600EgX-hz5tlqmn7TutNuADFqI7SP6VY-BwjHEbM17jZz8h5DgU0UFnq88rh0qCZqyZIsLIfYi0D9siEIaKt1IoDXJv9ZI6RB-pFbmTOLvM1O4OY3I5ToSlyk-KXo7nMgJfrGYzrSOwPxewhyut7mQ2Qo8JTSNWAIQ_GehXmPELs_FhwP8M3nscb6i4oniAxOyH9fqoOcLHSXpg3GFa8t6wkeCesIIn06zRQP3YdnsUPt4gJOwOfW6v8o13cz2ZfRcsW-CAxW_BLzBhymuoQVRiCX6sRO6apPgOskFna9iMPNVo-wjIwQA..&box_client_name=box-content-preview&box_client_version=3.26.0',
+      image: PypImg,
       span: 'col-span-2',
       color: 'bg-red-600',
       icon: <Activity className="w-6 h-6" />,
